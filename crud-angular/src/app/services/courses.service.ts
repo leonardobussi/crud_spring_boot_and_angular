@@ -9,12 +9,12 @@ import { delay, tap } from 'rxjs/operators'
 
 export class CoursesService {
 
-  private readonly API = '/assets/courses.json';
+  private readonly API = 'api';
 
   constructor(private httpClient: HttpClient) { }
 
   list() {
-    return this.httpClient.get<Course[]>(this.API)
+    return this.httpClient.get<Course[]>(`${this.API}/courses`)
     // .pipe(delay(3000))
     // (tap(courses => console.log(courses)));
   }
