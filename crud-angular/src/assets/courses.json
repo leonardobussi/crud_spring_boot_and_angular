@@ -1,12 +1,3 @@
 [
-  {"_id": "1", "name": "Hydrogen", "category": "test"},
-  {"_id": "2", "name": "Helium", "category": "test"},
-  {"_id": "3", "name": "Lithium", "category": "test"},
-  {"_id": "4", "name": "Beryllium", "category": "test"},
-  {"_id": "5", "name": "Boron", "category": "test"},
-  {"_id": "6", "name": "Carbon", "category": "test"},
-  {"_id": "7", "name": "Nitrogen", "category": "test"},
-  {"_id": "8", "name": "Oxygen", "category": "test"},
-  {"_id": "9", "name": "Fluorine", "category": "test"},
-  {"_id": "10", "name": "Neon", "category": "test"}
+  { "_id": "1", "name": "Angular", "category": "front-end"}
 ]
