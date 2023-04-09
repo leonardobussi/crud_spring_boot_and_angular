@@ -23,7 +23,7 @@ public class CrudJavaApplication {
 			Course c = new Course();
 
 			c.setName("teste do bussi");
-			c.setCategory("teste do bussi");
+			c.setCategory("Front-End");
 
 			courseRepository.save(c);
 		};
